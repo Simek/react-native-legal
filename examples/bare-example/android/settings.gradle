@@ -8,7 +8,7 @@ plugins {
 
 extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
 
-rootProject.name = 'BareExampleNotice'
+rootProject.name = 'ReactNativeLegalBareExample'
 
 include ':app'
 includeBuild(new File(["node", "--print", "require.resolve('@react-native/gradle-plugin/package.json')"].execute(null, rootDir).text.trim()).getParentFile().getAbsolutePath())

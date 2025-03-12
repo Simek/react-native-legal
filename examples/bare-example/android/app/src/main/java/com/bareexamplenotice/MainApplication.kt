@@ -1,4 +1,4 @@
-package com.bareexamplenotice;
+package com.ReactNativeLegalBareExample;
 
 import android.app.Application
 import com.facebook.react.PackageList
